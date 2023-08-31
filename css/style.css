@@ -1,0 +1,29 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+ span a {
+    display: flex;
+    justify-content: right;
+   
+} 
+
+.preloader-wreapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s ease;
+
+}
+
+.fad-out-animation{
+    opacity: 0;
+    visibility: hidden;
+    
+}
